@@ -13,6 +13,8 @@ RUN \
     curl \
     logrotate \
     nano \
+    rsync \
+    emacs \
     sudo && \
   echo "**** install openssh-server ****" && \
   if [ -z ${OPENSSH_RELEASE+x} ]; then \
